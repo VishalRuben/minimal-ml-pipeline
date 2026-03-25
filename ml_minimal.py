@@ -24,7 +24,7 @@ def main():
 
     # 5: Print the results
     print(f"Model score: {score:.3f}")
-    print(f"Prediction for 7 hours of sleep: {prediction[0]}")
+    print(f"Prediction for 7 hours of sleep: {prediction[0]:.3f}")
 
 
 if __name__ == "__main__":
